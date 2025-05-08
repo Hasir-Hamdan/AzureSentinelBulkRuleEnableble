@@ -11,11 +11,9 @@ This Python script takes care of that by:
 - Identifying and deploying all Analytics Rules associated with a given solution name
 - Enabling those rules automatically
 
-## 🖼️ Demo Screenshots
+## 🖼️ Screenshots
 
-> _Insert your images below this line_
-
-
+![Sentinel Bulk Rule Enable Screenshot](https://github.com/Hasir-Hamdan/AzureSentinelBulkRuleEnableble/blob/main/assets/1.png?raw=true)
 
 ---
 
@@ -66,10 +64,15 @@ python RuleAll.py -sub <SUBSCRIPTION_ID> -rg <RESOURCE_GROUP> -ws <WORKSPACE_NAM
 ```
 ✅ Example:
 ```
-python RuleAll.py -sub 12345678-90ab-cdef-1234-567890abcdef -rg MyResourceGroup -ws MySentinelWorkspace -sn "Microsoft Entra ID"
+python RuleAll.py -sub 12345678-90ab-cdef-1234-567890abcdef -rg MyResourceGroup -ws MySentinelWorkspace -sn "Azure Activity -e"
 ```
+![Sentinel Bulk Rule Enable Screenshot](https://github.com/Hasir-Hamdan/AzureSentinelBulkRuleEnableble/blob/main/assets/2.png?raw=true)
 
-Credits:
+![Sentinel Bulk Rule Enable Screenshot](https://github.com/Hasir-Hamdan/AzureSentinelBulkRuleEnableble/blob/main/assets/3.png?raw=true)
+
+
+### Credits:
+
 Huge thanks to @FJMDR for the original version.
 https://github.com/FJMDR/SentinelBulkRuleEnable/tree/main?tab=readme-ov-file
 This is a slightly modified version with better CLI support and user feedback improvements.
